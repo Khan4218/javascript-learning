@@ -51,9 +51,18 @@ Demonstrates how to create and manipulate JavaScript objects. Covers nested obje
 Final version of Rock Paper Scissors. Adds a persistent score system using `localStorage`. Users can now keep track of wins, losses, and ties across page reloads.
 
 ---
+### 09-dom.html
+Introduces basic DOM manipulation. Demonstrates selecting elements and updating their content dynamically using JavaScript.
+
+### 09-dom-projects.html
+Contains mini-projects to practice DOM manipulation, including a YouTube Subscribe Button and an Amazon Shipping Calculator. Shows interactive UI updates and event handling.
+
+### 09-rock-paper-scissors.html
+Enhanced Rock Paper Scissors game with DOM manipulation. Updates the UI dynamically to display game results and scores without using alert().
 
 ## ✅ Future Improvements
 - Add a scoreboard in the UI instead of using `alert()`.
+- Organize code into separate .js files for modularity.
 - Add basic CSS for layout and styling.
 - Use JavaScript `addEventListener` instead of inline `onclick`.
 - Refactor logic into separate JavaScript files.
@@ -74,4 +83,6 @@ Just open any `.html` file in your browser to test the script. No setup required
 
 ## 📚 Status
 Currently practicing core JavaScript concepts through mini-projects and examples. More features and interactivity to come!
+## 📚 Status update
+I'm actively learning JavaScript, recently mastering DOM manipulation to create dynamic, interactive web pages. Expect more projects and features as I explore advanced topics!
 

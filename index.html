@@ -5,61 +5,117 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JavaScript Learning Projects</title>
+  <title>JavaScript Learning Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
+      margin: 0;
       padding: 20px;
+      background-color: #f4f4f4;
+      text-align: center;
     }
 
     h1 {
       color: #333;
+      margin-bottom: 20px;
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
     }
 
-    li {
-      margin: 10px 0;
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20Bospx;
+      text-align: center;
+      transition: transform 0.2s;
     }
 
-    a {
-      text-decoration: none;
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card.featured {
+      border: 2px solid #d32f2f;
+    }
+
+    .card a {
       color: #007bff;
+      text-decoration: none;
       font-size: 18px;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .highlight {
       font-weight: bold;
-      color: #d32f2f;
+    }
+
+    .card a:hover {
+      color: #0056b3;
+    }
+
+    .card p {
+      color: #666;
+      font-size: 14px;
+      margin: 10px 0 0;
     }
   </style>
 </head>
 
 <body>
-  <h1>My JavaScript Learning Projects</h1>
-  <p>Welcome to my JavaScript learning journey! Check out my final project and more below:</p>
-  <ul>
-    <li><a href="10-rock-paper-scissors.html" class="highlight">Final Rock Paper Scissors Game (DOM)</a></li>
-    <li><a href="09-dom-projects.html">DOM Projects (YouTube Subscribe, Amazon Calculator)</a></li>
-    <li><a href="09-dom.html">Basic DOM Manipulation</a></li>
-    <li><a href="08-rock-paper-scissors.html">Rock Paper Scissors with localStorage</a></li>
-    <li><a href="07-rock-paper-scissors.html">Rock Paper Scissors with Functions</a></li>
-    <li><a href="06-rock-paper-scissors.html">Basic Rock Paper Scissors</a></li>
-    <li><a href="05-cart-quantity.html">Cart Quantity Tracker</a></li>
-    <li><a href="08-objects.html">Objects and JSON</a></li>
-    <li><a href="07-functions.html">Functions (Tax Calculator)</a></li>
-    <li><a href="06-booleans.html">Booleans and Conditionals</a></li>
-    <li><a href="05-variables.html">Variables and Operations</a></li>
-    <li><a href="04-website.html">Basic JavaScript Embed</a></li>
-  </ul>
+  <h1>My JavaScript Learning Portfolio</h1>
+  <div class="container">
+    <div class="card featured">
+      <a href="10-rock-paper-scissors.html">Final Rock Paper Scissors</a>
+      <p>Advanced DOM-based game with dynamic UI and score tracking.</p>
+    </div>
+    <div class="card">
+      <a href="09-dom-projects.html">DOM Projects</a>
+      <p>YouTube Subscribe Button and Amazon Shipping Calculator.</p>
+    </div>
+    <div class="card">
+      <a href="09-dom.html">Basic DOM</a>
+      <p>Intro to DOM manipulation with dynamic element updates.</p>
+    </div>
+    <div class="card">
+      <a href="08-rock-paper-scissors.html">Rock Paper Scissors (v3)</a>
+      <p>Uses localStorage for persistent scores.</p>
+    </div>
+    <div class="card">
+      <a href="07-rock-paper-scissors.html">Rock Paper Scissors (v2)</a>
+      <p>Refactored with functions for cleaner code.</p>
+    </div>
+    <div class="card">
+      <a href="06-rock-paper-scissors.html">Rock Paper Scissors (v1)</a>
+      <p>Basic game with conditional logic.</p>
+    </div>
+    <div class="card">
+      <a href="05-cart-quantity.html">Cart Quantity Tracker</a>
+      <p>Simple variable-based cart UI.</p>
+    </div>
+    <div class="card">
+      <a href="08-objects.html">Objects</a>
+      <p>Nested objects, methods, and JSON.</p>
+    </div>
+    <div class="card">
+      <a href="07-functions.html">Functions</a>
+      <p>Reusable logic with a tax calculator.</p>
+    </div>
+    <div class="card">
+      <a href="06-booleans.html">Booleans</a>
+      <p>Conditional logic with if/else.</p>
+    </div>
+    <div class="card">
+      <a href="05-variables.html">Variables</a>
+      <p>let, const, var, and basic operations.</p>
+    </div>
+    <div class="card">
+      <a href="04-website.html">Basic JS</a>
+      <p>First JavaScript embedding.</p>
+    </div>
+  </div>
 </body>
 
 </html>

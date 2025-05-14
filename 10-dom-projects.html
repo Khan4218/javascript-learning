@@ -3,6 +3,51 @@
 
 <head>
   <title>DOM Projects</title>
+  <style>
+    body {
+      font-family: Arial;
+    }
+
+    .subscribe-button {
+      border: none;
+      background-color: black;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 50px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-bottom: 35px;
+    }
+
+    .is-subscribed {
+      background-color: rgb(240, 240, 240);
+      color: black;
+    }
+
+    .cost-input {
+      font-size: 15px;
+      /* padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      */
+      padding: 10px;
+    }
+
+    .calculate-button {
+      font-family: Arial;
+      height: 40px;
+      font-size: 15px;
+      background-color: rgb(4, 133, 4);
+      color: white;
+      border: none;
+      padding: 12px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 
 <body>
@@ -12,17 +57,17 @@
   <button onclick="
   Subscribe();
   
-  " class="js-subscribe-button">
+  " class="js-subscribe-button subscribe-button">
     Subscribe
   </button>
 
   <p>Amazon Shipping Calculator</p>
-  <input placeholder="cost of order" class="js-cost-input" onkeydown="
+  <input placeholder="Cost of order" class="js-cost-input cost-input" onkeydown="
      handleCostKeydown(event);
   ">
   <button onclick="
     CalculateTotal();
-  ">Calculate</button>
+  " class="calculate-button">Calculate</button>
   <p class="js-total-cost"></p>
 
   <script>
@@ -62,8 +107,10 @@
 
       if (buttonElement.innerText === 'Subscribe') {
         buttonElement.innerHTML = 'Subscribed';
+        buttonElement.classList.add('is-subscribed');
       } else {
         buttonElement.innerHTML = 'Subscribe';
+        buttonElement.classList.remove('is-subscribed');
       }
 
     }

@@ -134,12 +134,11 @@ JAVASCRIPT-COURSE/
 - ✅ Linked via `<script src="scripts/10-rock-paper-scissors.js"></script>` and `<link rel="stylesheet" href="styles/10-rock-paper-scissors.css">`.
 
 ---
-
-## 🚀 How to Run This Project
-
-1. Clone or download the repository.
-2. Open `10-rock-paper-scissors.html` in any browser.
-3. Play and enjoy!
+  ## 💻 How to Run
+  - **Locally**: Open `index.html` in a web browser to see all projects.
+  - **Online**: Visit [https://khan4218.github.io/javascript-learning/](https://khan4218.github.io/javascript-learning/) to explore the landing page and play the final Rock Paper Scissors game.
+     ...
+     ```
 
 ---
 

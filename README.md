@@ -1,6 +1,5 @@
 # javascript-learning
 
-
 This repository documents my journey learning JavaScript. Each file demonstrates a specific concept or small project, starting from the basics of JavaScript to more advanced topics like DOM manipulation and object usage.
 
 ---
@@ -51,16 +50,24 @@ Demonstrates how to create and manipulate JavaScript objects. Covers nested obje
 Final version of Rock Paper Scissors. Adds a persistent score system using `localStorage`. Users can now keep track of wins, losses, and ties across page reloads.
 
 ---
+
 ### 09-dom.html
 Introduces basic DOM manipulation. Demonstrates selecting elements and updating their content dynamically using JavaScript.
+
+---
 
 ### 09-dom-projects.html
 Contains mini-projects to practice DOM manipulation, including a YouTube Subscribe Button and an Amazon Shipping Calculator. Shows interactive UI updates and event handling.
 
+---
+
 ### 09-rock-paper-scissors.html
 Enhanced Rock Paper Scissors game with DOM manipulation. Updates the UI dynamically to display game results and scores without using alert().
 
+---
+
 ## ✅ Future Improvements
+
 - Add a scoreboard in the UI instead of using `alert()`.
 - Organize code into separate .js files for modularity.
 - Add basic CSS for layout and styling.
@@ -76,13 +83,77 @@ Just open any `.html` file in your browser to test the script. No setup required
 ---
 
 ## 🔧 Technologies Used
+
 - HTML
 - Vanilla JavaScript
 
 ---
 
 ## 📚 Status
+
 Currently practicing core JavaScript concepts through mini-projects and examples. More features and interactivity to come!
-## 📚 Status update
+
+---
+
+## 📚 Status Update
+
 I'm actively learning JavaScript, recently mastering DOM manipulation to create dynamic, interactive web pages. Expect more projects and features as I explore advanced topics!
 
+---
+
+## 🌟 Featured Project: 10-rock-paper-scissors
+
+### 📄 `10-rock-paper-scissors.html`
+A complete Rock Paper Scissors game built using HTML, CSS, and JavaScript. This is my most advanced project so far and demonstrates:
+
+- Conditional logic
+- Event handling
+- DOM manipulation
+- Random number generation
+- Score tracking using JavaScript
+
+### 📂 Organized Structure
+
+JAVASCRIPT-COURSE/
+├── 10-rock-paper-scissors.html
+├── styles/
+│   ├── 10-rock-paper-scissors.css
+│  
+├── scripts/
+│   ├── 10-rock-paper-scissors.js
+│  
+├── images/
+│   ├── paper-emoji.png
+│   ├── rock-emoji.png
+│   └── scissors-emoji.png
+
+│ 
+
+
+- ✅ JavaScript and CSS are organized in separate folders for cleaner structure.
+- ✅ Linked via `<script src="scripts/10-rock-paper-scissors.js"></script>` and `<link rel="stylesheet" href="styles/10-rock-paper-scissors.css">`.
+
+---
+
+## 🚀 How to Run This Project
+
+1. Clone or download the repository.
+2. Open `10-rock-paper-scissors.html` in any browser.
+3. Play and enjoy!
+
+---
+
+## 🧠 New Concepts Applied
+
+- `classList` for dynamic styling
+- Clean separation of HTML, CSS, and JS files
+- Fully interactive UI without alert popups
+- Use of modern JavaScript methods
+
+---
+
+## 🔮 What's Next?
+
+- Add responsive design
+- Show scores live in the UI
+- Create more interactive games and tools using DOM and events

@@ -6,6 +6,16 @@ This repository documents my journey learning JavaScript. Each file demonstrates
 
 ## 📁 File Overview
 
+### 11-todo-list.html
+A complete Todo List project using arrays, loops, and DOM manipulation. Users can add tasks with due dates and delete them dynamically.
+
+---
+
+### 11-arrays-and-loops.html
+A collection of exercises to practice arrays, loops (`for`, `while`), and logic like `break`, `continue`, and early returns from functions.
+
+---
+
 ### 04-website.html
 A basic HTML page used to practice embedding JavaScript. Serves as a starting point to test out simple scripts.
 
@@ -118,27 +128,39 @@ JAVASCRIPT-COURSE/
 ├── 10-rock-paper-scissors.html
 ├── styles/
 │   ├── 10-rock-paper-scissors.css
-│  
 ├── scripts/
 │   ├── 10-rock-paper-scissors.js
-│  
 ├── images/
 │   ├── paper-emoji.png
 │   ├── rock-emoji.png
 │   └── scissors-emoji.png
 
-│ 
-
-
 - ✅ JavaScript and CSS are organized in separate folders for cleaner structure.
 - ✅ Linked via `<script src="scripts/10-rock-paper-scissors.js"></script>` and `<link rel="stylesheet" href="styles/10-rock-paper-scissors.css">`.
 
 ---
-  ## 💻 How to Run
-  - **Locally**: Open `index.html` in a web browser to see all projects.
-  - **Online**: Visit [https://khan4218.github.io/javascript-learning/](https://khan4218.github.io/javascript-learning/) to explore the landing page and play the final Rock Paper Scissors game.
-     ...
-     ```
+
+## 🌟 New Project: 11-todo-list
+
+### 📄 `11-todo-list.html`
+An interactive Todo List app that lets users:
+
+- Add tasks with custom names and due dates
+- Dynamically display and delete tasks
+- Use arrays and loops to manage task data
+- Interact with the DOM using modern JavaScript
+
+### 📂 File Structure
+
+JAVASCRIPT-COURSE/
+├── 11-todo-list.html  
+├── styles/  
+│   └── 11-todo-list.css  
+├── scripts/  
+│   └── 11-todo-list.js  
+
+- ✅ All logic separated into organized folders
+- ✅ Easy to edit, test, and scale
 
 ---
 
@@ -148,6 +170,9 @@ JAVASCRIPT-COURSE/
 - Clean separation of HTML, CSS, and JS files
 - Fully interactive UI without alert popups
 - Use of modern JavaScript methods
+- **Dynamic list rendering using loops and arrays**
+- **Conditionally updating the DOM**
+- **Working with input elements and date pickers**
 
 ---
 

@@ -86,9 +86,18 @@ Enhanced Rock Paper Scissors game with DOM manipulation. Updates the UI dynamica
 
 ---
 
-## 💻 How to Run
+💻 How to Run
+To explore my JavaScript projects:
 
-Just open any `.html` file in your browser to test the script. No setup required.
+Visit my landing page:
+👉 https://khan4218.github.io/javascript-learning/
+
+Browse the project cards on the page.
+
+Click on any project title to view and interact with it directly in your browser — no setup needed.
+
+Each project demonstrates specific JavaScript concepts with live examples and clean UI.
+
 
 ---
 

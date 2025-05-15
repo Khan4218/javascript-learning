@@ -91,6 +91,7 @@ To explore my JavaScript projects:
 
 Visit my landing page:
 👉 https://khan4218.github.io/javascript-learning/
+Or visit https://akbar-js-projects.netlify.app
 
 Browse the project cards on the page.
 
